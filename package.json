@@ -1,10 +1,15 @@
 {
   "name": "npm_express",
   "version": "1.0.0",
-  "description": "_Mi primer server",
+  "description": "Mi primer server",
   "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "env FORCE_COLOR=1 node index.js"
   },
   "repository": {
     "type": "git",
@@ -18,8 +23,5 @@
   "bugs": {
     "url": "https://github.com/crhdzalex/tareasisinfo_npm/issues"
   },
-  "homepage": "https://github.com/crhdzalex/tareasisinfo_npm#readme",
-  "dependencies": {
-    "express": "^4.17.0"
-  }
+  "homepage": "https://github.com/crhdzalex/tareasisinfo_npm#readme"
 }
