@@ -1,0 +1,25 @@
+{
+  "name": "npm_express",
+  "version": "1.0.0",
+  "description": "_Mi primer server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crhdzalex/tareasisinfo_npm.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "Alejandro Cruz Hernández",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crhdzalex/tareasisinfo_npm/issues"
+  },
+  "homepage": "https://github.com/crhdzalex/tareasisinfo_npm#readme",
+  "dependencies": {
+    "express": "^4.17.0"
+  }
+}
